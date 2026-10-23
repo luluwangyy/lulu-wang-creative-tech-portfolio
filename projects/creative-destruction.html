@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0b0c0f">
-  <title>Touch, Sound, Motion — Yueyi Lulu Wang</title>
-  <meta name="description" content="Touch, Sound, Motion: an exploration of interactive installation at the Barnard Movement Lab.">
+  <title>Choreographing Response — Yueyi Lulu Wang</title>
+  <meta name="description" content="Choreographing Response investigates how bodily input and response timing shape participation in robotic environments.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,21 +39,25 @@
   <main>
     <div class="project-detail-visual">
       <div class="project-visual">
-        <img src="../assets/images/creative-destruction/cover.png" alt="Touch, Sound, Motion">
+        <img src="../assets/images/creative-destruction/cover.png" alt="Choreographing Response">
       </div>
     </div>
 
     <section class="project-detail-hero">
       <a href="../make.html" class="back-link">&larr; Back to Make</a>
-      <h1>Touch, Sound, Motion</h1>
-      <p class="project-subtitle">An Exploration of Interactive Installation at the Barnard Movement Lab.</p>
+      <h1>Choreographing Response</h1>
+      <p class="project-subtitle">Investigating how bodily input and response timing shape participation in robotic environments.</p>
     </section>
 
     <div class="project-detail-split">
       <aside class="project-meta-col">
         <div>
+          <span class="meta-label">Affiliation</span>
+          <span class="meta-value">Barnard Movement Lab</span>
+        </div>
+        <div>
           <span class="meta-label">Type</span>
-          <span class="meta-value">Interactive Performance-Installation</span>
+          <span class="meta-value">Interactive Performance and Installation</span>
         </div>
         <div>
           <span class="meta-label">Role</span>
@@ -61,97 +65,139 @@
         </div>
         <div>
           <span class="meta-label">Duration</span>
-          <span class="meta-value">Oct 2025–Apr 2026, Display Apr 2026</span>
+          <span class="meta-value">October 2025–April 2026</span>
         </div>
         <div>
           <span class="meta-label">Tools</span>
-          <span class="meta-value">ESP32 · QLab · ETC Eos · OSC · Python · Raspberry Pi · Custom Robotics</span>
+          <span class="meta-value">Python · Custom Robotics · ETC Eos · QLab · OSC · Raspberry Pi · ESP32</span>
         </div>
       </aside>
 
       <section class="project-detail-body">
-      <p>
-        Selected as the 2025–26 Barnard Movement Lab Student Artist-in-Residence, I developed a series
-        of explorations into interactive installations, focusing on connecting these systems to
-        the lab's spatial resources—specifically the ETC Eos lighting console. The work spans
-        several levels of interaction:
-      </p>
-
-      <div class="project-section">
-        <h2>Sound to Robotic Movement &amp; Lighting Change</h2>
-        <p>
-          Could a clap—rather than conventional code—activate
-          a robot? I wanted to create a more interactive, multisensory relationship between human
-          gesture and robotic movement. Using Python-based sound detection and custom code, I
-          networked a custom-designed robotic tentacle with the ETC lighting console. The result
-          is an interactive loop: when the audience claps, the lighting shifts and the robot moves
-          in response, simultaneously.
-        </p>
-
-        <div class="media-columns">
-          <div class="media-column">
-            <div class="project-visual">
-              <button type="button" class="video-facade" style="background-image:url('https://img.youtube.com/vi/4R0qSw57JNY/hqdefault.jpg')" data-embed-src="https://www.youtube.com/embed/4R0qSw57JNY?autoplay=1&amp;rel=0" data-embed-title="Sound to robotic movement, without lighting" data-embed-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" aria-label="Play video: Sound to robotic movement, without lighting">
-              <span class="video-facade-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-            </button>
-            </div>
-            <p class="media-caption">An immediate sound-to-robotic-movement route, without lighting. When the audience claps, the robotic tentacle "crawls."</p>
-          </div>
-          <div class="media-column">
-            <div class="project-visual">
-              <button type="button" class="video-facade" style="background-image:url('https://img.youtube.com/vi/urj86VMSwUk/hqdefault.jpg')" data-embed-src="https://www.youtube.com/embed/urj86VMSwUk?autoplay=1&amp;rel=0" data-embed-title="Sound to movement and lighting" data-embed-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" aria-label="Play video: Sound to movement and lighting">
-              <span class="video-facade-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-            </button>
-            </div>
-            <p class="media-caption">A combined sound-to-movement-and-lighting route. Each clap shifts the light color. On the 13th clap, the light turns red, zooms to 100%, and the robotic tentacle begins moving.</p>
-          </div>
+        <div class="project-section">
+          <h2>Research Question</h2>
+          <p>How does the timing of a robotic environment’s response shape a participant’s understanding of their influence over it?</p>
+          <p>
+            During my residency at the Barnard Movement Lab, I developed a series of connections
+            between audience input, a custom robotic tentacle, and the lab’s theatrical lighting
+            system. These experiments made it possible to explore interaction at two scales: the
+            movement of an individual mechanical body and changes in the surrounding room.
+          </p>
+          <p>
+            The configurations differ in how an action produces a consequence. A clap can trigger
+            movement immediately, or contribute to a sequence in which lighting changes precede
+            robotic activation.
+          </p>
         </div>
 
-        <p class="media-note">(Note: To read how I built the robotics from scratch, see <a href="the-roro.html">The Roro</a>.)</p>
-      </div>
-
-      <div class="project-section">
-        <h2>Touch to Sound Movement</h2>
-        <div class="split-layout">
-          <div class="split-media">
-            <div class="project-visual">
-              <button type="button" class="video-facade" style="background-image:url('https://img.youtube.com/vi/_-lUSP3zuBE/hqdefault.jpg')" data-embed-src="https://www.youtube.com/embed/_-lUSP3zuBE?autoplay=1&amp;rel=0" data-embed-title="Touch to sound movement" data-embed-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" aria-label="Play video: Touch to sound movement">
+        <div class="project-section">
+          <h2>Immediate and Accumulated Responses</h2>
+          <p>
+            In the first configuration, Python-based sound detection identifies a clap and triggers
+            the tentacle’s crawling movement. This establishes a direct relationship between an
+            acoustic event and a visible mechanical response.
+          </p>
+          <div class="project-visual">
+            <button type="button" class="video-facade" style="background-image:url('https://img.youtube.com/vi/4R0qSw57JNY/hqdefault.jpg')" data-embed-src="https://www.youtube.com/embed/4R0qSw57JNY?autoplay=1&amp;rel=0" data-embed-title="Sound to Robotic Movement" data-embed-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" aria-label="Play video: Sound to Robotic Movement">
               <span class="video-facade-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
             </button>
-            </div>
           </div>
-          <div class="split-text">
-            <p>
-              Beyond sound, I wanted to explore touch as an input. Touch is a baby's first way of
-              exploring curiosity, yet it's a sense we increasingly overlook in the digital era.
-              This piece asks whether a touch-directed instrument can reclaim that curiosity,
-              inviting people to co-create sound art together through physical contact.
-            </p>
-            <p>
-              I built the piece using the coil method to form a ceramic vessel. After the glaze
-              firing, I applied five strips of copper tape to the surface, soldered connections on
-              top of them, and wired the tape to ESP32 touch pins housed inside the vessel.
-              Touching each soldered section triggers a corresponding synthesized note
-              (do-re-mi-fa-so), and touching the sections in sequence shifts the tone itself—for
-              example, moving between a sine wave and a sawtooth wave.
-            </p>
-          </div>
-        </div>
-      </div>
+          <p class="media-caption">A clap triggers the robotic tentacle’s crawling movement, without lighting.</p>
 
-      <div class="project-section">
-        <h2>More Experiments</h2>
-        <p>
-          I combined my explorations of touch, sound, and robotic movement into a single
-          interactive installation that pairs the touch-triggered instrument with the robotics.
-          When certain notes are touched in sequence, the robot begins to move.
-        </p>
-        <div class="project-visual">
-          <button type="button" class="video-facade" data-embed-src="https://player.vimeo.com/video/1195036035?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1" data-embed-title="Tactone" data-embed-allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" data-embed-referrer="strict-origin-when-cross-origin" aria-label="Play video: Tactone">
+          <p>
+            I then connected the system to the ETC Eos lighting console. Each clap changes the light
+            color. On the thirteenth clap, the light turns red, its zoom reaches 100%, and the robotic
+            tentacle begins to move.
+          </p>
+          <div class="project-visual">
+            <button type="button" class="video-facade" style="background-image:url('https://img.youtube.com/vi/urj86VMSwUk/hqdefault.jpg')" data-embed-src="https://www.youtube.com/embed/urj86VMSwUk?autoplay=1&amp;rel=0" data-embed-title="Sound to Robotic Movement and Lighting" data-embed-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" aria-label="Play video: Sound to Robotic Movement and Lighting">
               <span class="video-facade-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
             </button>
+          </div>
+          <p class="media-caption">Each clap changes the light color. The thirteenth clap turns the light red, brings its zoom to 100%, and activates the robotic tentacle.</p>
+
+          <div class="interaction-table-wrap">
+            <table class="interaction-table">
+              <thead>
+                <tr>
+                  <th>Configuration</th>
+                  <th>Input and response</th>
+                  <th>Research focus</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Immediate activation</td>
+                  <td>A detected clap triggers robotic movement.</td>
+                  <td>How people recognize a connection between their action and the robot.</td>
+                </tr>
+                <tr>
+                  <td>Accumulated activation</td>
+                  <td>Claps change the lighting; the thirteenth initiates robotic movement.</td>
+                  <td>How people interpret an unfolding response and discover the conditions for activation.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
+            The second configuration makes timing part of the encounter. Lighting registers
+            successive actions while the robot remains still until the threshold is reached. This
+            provides a setting for investigating anticipation, discoverability, and how people
+            revise their actions as they encounter a system’s behavior.
+          </p>
+          <p class="media-note">For the development of the robotic mechanism, see <a href="the-roro.html"><em>The Roro</em></a>.</p>
         </div>
-      </div>
+
+        <div class="project-section">
+          <h2>Participation Across the Room</h2>
+          <p>
+            Clapping allows input without a handheld controller. It also introduces ambiguity in a
+            shared space: several people may contribute to the same sequence, and the system
+            responds to detected events without identifying who produced them.
+          </p>
+          <p>
+            This raises questions about collective participation. Can someone tell whether their
+            clap caused a change? How might a group coordinate once it discovers the activation
+            pattern? Does the delayed movement encourage continued experimentation or make the
+            connection harder to understand?
+          </p>
+        </div>
+
+        <div class="project-section">
+          <h2>Extension Through Touch</h2>
+          <p>
+            I also connected the robotic mechanism to Tactone, my ceramic musical interface. A
+            designated sequence of notes triggers movement, extending the investigation from
+            acoustic input to a physically arranged touch sequence.
+          </p>
+          <p>
+            Here, participants choose the order and timing of contact, while the resulting robotic
+            movement remains choreographed. This creates another way to examine how people
+            understand their role in initiating a performance.
+          </p>
+          <div class="project-visual">
+            <button type="button" class="video-facade" data-embed-src="https://player.vimeo.com/video/1195036035?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1" data-embed-title="Tactone and Robotics — Combined Interaction" data-embed-allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" data-embed-referrer="strict-origin-when-cross-origin" aria-label="Play video: Tactone and Robotics — Combined Interaction">
+              <span class="video-facade-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+            </button>
+          </div>
+          <p class="media-caption">A designated sequence played on the ceramic instrument triggers movement in the robotic mechanism.</p>
+        </div>
+
+        <div class="project-section">
+          <h2>Current Outcome and Further Inquiry</h2>
+          <p>
+            The project establishes working configurations connecting bodily input, robotic
+            actuation, and theatrical lighting. Further investigation could examine how
+            participants discover the mappings, attribute changes to their actions, and coordinate
+            with others.
+          </p>
+          <p>
+            The central inquiry is how a responsive environment makes participation understandable:
+            what people can influence, how that influence becomes visible, and how the encounter
+            changes as they learn.
+          </p>
+        </div>
       </section>
     </div>
 
