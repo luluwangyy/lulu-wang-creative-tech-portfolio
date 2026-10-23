@@ -2149,6 +2149,16 @@ a:focus-visible, button:focus-visible {
   aspect-ratio: 16 / 9;
 }
 
+/* Make treats every physical-computing project as an equal entry rather than
+   enlarging the first card like the Work and Play collections do. */
+.project-index-page.make-index .project-card:first-child {
+  grid-column: auto;
+}
+
+.project-index-page.make-index .project-card:first-child .project-visual {
+  aspect-ratio: 4 / 3;
+}
+
 .work-index .project-card[href="projects/sketchtrace.html"] .project-visual {
   aspect-ratio: 2000 / 1330;
 }
