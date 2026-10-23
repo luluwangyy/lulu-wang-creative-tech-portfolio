@@ -4025,6 +4025,45 @@ a:focus-visible, button:focus-visible {
   color: var(--color-text-muted);
 }
 
+.project-visual--placeholder,
+.editorial-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 16rem;
+  border: 1px dashed var(--color-border);
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+}
+
+.project-visual--placeholder span,
+.editorial-placeholder__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.editorial-figure {
+  margin: 1.75rem 0;
+}
+
+.editorial-figure .editorial-placeholder {
+  padding: 2rem;
+  text-align: center;
+}
+
+.editorial-figure figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.editorial-figure figcaption strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--color-text);
+}
+
 @media (max-width: 700px) {
   .interaction-table {
     min-width: 620px;

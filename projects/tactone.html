@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0c0f">
+  <title>Tactone — Yueyi Lulu Wang</title>
+  <meta name="description" content="Tactone is a touch-responsive ceramic instrument exploring form, spatially arranged contacts, and musical interaction.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;family=Averia+Serif+Libre:ital,wght@0,300;1,300&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css?v=tactone-preview-1">
+</head>
+<body class="project-detail-page make-project">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <nav class="segmented-control" aria-label="Primary">
+        <span class="segmented-control__pill" aria-hidden="true"></span>
+        <a href="../index.html" class="segmented-control__item">Home</a>
+        <a href="../work.html" class="segmented-control__item">Work</a>
+        <a href="../play.html" class="segmented-control__item">Play</a>
+        <a href="../make.html" class="segmented-control__item is-active" aria-current="page">Make</a>
+        <a href="../about.html" class="segmented-control__item">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="project-detail-visual">
+      <div class="project-visual project-visual--placeholder" role="img" aria-label="Tactone project cover placeholder">
+        <span>Tactone — project cover image forthcoming</span>
+      </div>
+    </div>
+
+    <section class="project-detail-hero">
+      <a href="../make.html" class="back-link">&larr; Back to Make</a>
+      <h1>Tactone</h1>
+      <p class="project-subtitle">Investigating ceramic form as an interface for bodily exploration and electronic sound.</p>
+    </section>
+
+    <div class="project-detail-split">
+      <aside class="project-meta-col">
+        <div>
+          <span class="meta-label">Affiliation</span>
+          <span class="meta-value">Barnard Movement Lab</span>
+        </div>
+        <div>
+          <span class="meta-label">Type</span>
+          <span class="meta-value">Tangible Musical Interface</span>
+        </div>
+        <div>
+          <span class="meta-label">Role</span>
+          <span class="meta-value">Artist-Technologist</span>
+        </div>
+        <div>
+          <span class="meta-label">Duration</span>
+          <span class="meta-value">2025–2026</span>
+        </div>
+        <div>
+          <span class="meta-label">Tools</span>
+          <span class="meta-value">Ceramic Fabrication · Copper Tape · ESP32 · Custom Software · Sound Synthesis</span>
+        </div>
+      </aside>
+
+      <section class="project-detail-body">
+        <div class="project-section">
+          <h2>Research Question</h2>
+          <p>How can the physical form of an electronic instrument shape the gestures through which people discover and play it?</p>
+          <p>
+            Tactone explores this question through a ceramic vessel with five conductive contacts.
+            Touching each contact produces a synthesized note, while a designated sequence changes
+            the waveform. The project connects ceramic making with physical computing to investigate
+            how an instrument’s shape and responses can guide exploration.
+          </p>
+        </div>
+
+        <div class="project-section">
+          <h2>Material and Interaction</h2>
+          <p>
+            I coil-built the vessel, glazed and fired it, then applied five copper-tape contacts to
+            its surface. Soldered connections link the contacts to ESP32 touch pins, with the board
+            housed inside the vessel.
+          </p>
+          <p>
+            The ceramic provides the structure and surface of the instrument; the copper contacts
+            provide the sensing points. Together, they create an interface in which the placement of
+            sound is physical. Each note occupies a location, and moving between notes requires the
+            hand to travel around the vessel.
+          </p>
+          <p>
+            This makes form an interaction variable. Curvature, reach, and the distance between
+            contacts could influence which movements feel accessible and which combinations someone
+            discovers. The current vessel provides a first configuration through which to examine
+            those relationships.
+          </p>
+
+          <figure class="editorial-figure">
+            <div class="editorial-placeholder" role="img" aria-label="Placeholder for views of the vessel, contact mapping, and a hand interacting with the surface">
+              <span class="editorial-placeholder__label">Image forthcoming</span>
+            </div>
+            <figcaption>
+              <strong>Figure 1 — Form and Contact Mapping</strong>
+              Views of the vessel showing all five contacts, their corresponding notes, and a hand interacting with the surface.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="project-section">
+          <h2>Learning Through Sound</h2>
+          <p>
+            The five contacts correspond to do, re, mi, fa, and so. A designated touch sequence
+            changes the synthesized waveform, including transitions between sine and sawtooth tones.
+          </p>
+          <p>
+            This creates two levels of interaction: an individual touch produces a note, while a
+            sequence changes how subsequent notes sound. The instrument offers a way to investigate
+            how people learn through audible feedback—connecting a location to a pitch, then
+            recognizing that the order of their actions can alter the system.
+          </p>
+
+          <div class="project-visual">
+            <button type="button" class="video-facade" style="background-image:url('https://img.youtube.com/vi/_-lUSP3zuBE/hqdefault.jpg')" data-embed-src="https://www.youtube.com/embed/_-lUSP3zuBE?autoplay=1&amp;rel=0" data-embed-title="Tactone — Touch-to-Sound Demonstration" data-embed-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" aria-label="Play video: Tactone touch-to-sound demonstration">
+              <span class="video-facade-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+            </button>
+          </div>
+          <p class="media-caption">Touching the conductive contacts produces synthesized notes; a designated sequence changes the waveform.</p>
+
+          <figure class="editorial-figure">
+            <div class="editorial-placeholder" role="img" aria-label="Placeholder for an interior photograph and system connection diagram">
+              <span class="editorial-placeholder__label">Image forthcoming</span>
+            </div>
+            <figcaption>
+              <strong>Figure 2 — System and Fabrication</strong>
+              Interior photograph and connection diagram showing the copper contacts, ESP32, and sound-generation pathway.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="project-section">
+          <h2>Current Outcome and Further Inquiry</h2>
+          <p>
+            Tactone establishes a working touch-to-sound prototype. Its research potential lies in
+            examining the relationship between the vessel’s geometry, the arrangement of its
+            contacts, and the gestures used to play it.
+          </p>
+          <p>
+            A next iteration could compare alternative contact arrangements and vessel forms.
+            Observing where people first touch, how they move between notes, and whether they
+            discover the waveform change would help identify which aspects of the interface support
+            exploration and which require explanation.
+          </p>
+          <p>
+            The broader aim is to understand how the material and spatial qualities of a handcrafted
+            object can participate in the design of an electronic instrument.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section class="related-projects">
+      <p class="section-label">Related Projects</p>
+      <div class="related-grid">
+        <a href="tether.html" class="related-card">
+          <div>
+            <span class="related-card-label">Previous Project</span>
+            <span class="related-card-title">Tether</span>
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="the-roro.html" class="related-card">
+          <div>
+            <span class="related-card-label">Next Project</span>
+            <span class="related-card-title">Quadruped</span>
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Yueyi Lulu Wang</span>
+      <div class="footer-links">
+        <a href="mailto:lulu.yueyi.wang@gmail.com">Email</a>
+        <a href="https://github.com/luluwangyy" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js?v=ui-sound-2"></script>
+</body>
+</html>
