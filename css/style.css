@@ -845,7 +845,7 @@ a:focus-visible, button:focus-visible {
 
 .home-statement {
   --home-interactive-color: #8ee4e8;
-  --home-role-color: #74d6d6;
+  --home-role-color: var(--color-emphasis);
   --home-intro-animation-color: var(--home-interactive-color);
   max-width: 21ch;
   font-family: var(--font-serif-highlight);
